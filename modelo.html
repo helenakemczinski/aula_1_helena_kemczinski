@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site oficial da Massas Tia Deni - massas artesanais feitas com amor.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Massas Tia Deni</title>
+</head>
+
+<body>
+
+    <header id="topo">
+        <h1>Massas Tia Deni</h1>
+        <p>Massas artesanais feitas com tradição e carinho.</p>
+
+        <img src="tia_deni.png"
+             alt="Logotipo da Massas Tia Deni com telefone para contato"
+             width="200"
+             height="200">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#receitas">Receitas</a></li>
+            <li><a href="#tabela">Tabela de Preços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="sobre">
+            <h2>Sobre a Massas Tia Deni</h2>
+            <p>
+                A Massas Tia Deni é especializada na produção de massas frescas e artesanais.
+                Trabalhamos com ingredientes selecionados para garantir qualidade e sabor.
+            </p>
+        </section>
+
+        <section id="receitas">
+            <h2>Receitas Especiais</h2>
+
+            <h3>Massas mais vendidas:</h3>
+            <ul>
+                <li>Lasanha à Bolonhesa</li>
+                <li>Rondelli de Presunto e Queijo</li>
+                <li>Macarrão Caseiro</li>
+                <li>Nhoque de Batata</li>
+            </ul>
+        </section>
+
+        <section id="tabela">
+            <h2>Tabela de Preços</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th scope="col">Produto</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lasanha</td>
+                        <td>Carne ou Frango</td>
+                        <td>R$ 35,00</td>
+                    </tr>
+                    <tr>
+                        <td>Rondelli</td>
+                        <td>Presunto e Queijo</td>
+                        <td>R$ 30,00</td>
+                    </tr>
+                    <tr>
+                        <td>Nhoque</td>
+                        <td>Batata tradicional</td>
+                        <td>R$ 25,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contato">
+            <h2>Faça seu Pedido</h2>
+
+            <form action="#" method="post">
+
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo"><br><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" required placeholder="(47) 99999-9999"><br><br>
+
+                <label for="produto">Produto:</label><br>
+                <select id="produto" name="produto" required>
+                    <option value="">Selecione</option>
+                    <option value="lasanha">Lasanha</option>
+                    <option value="rondelli">Rondelli</option>
+                    <option value="nhoque">Nhoque</option>
+                </select><br><br>
+
+                <label for="quantidade">Quantidade:</label><br>
+                <input type="number" id="quantidade" name="quantidade" min="1" required><br><br>
+
+                <input type="submit" value="Enviar Pedido">
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Massas Tia Deni</p>
+        <p><a href="#topo">Voltar ao topo</a></p>
+    </footer>
+
+</body>
+</html>
